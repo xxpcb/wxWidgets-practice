@@ -17,19 +17,24 @@ wxWidgets+wxFormBuilder+OpenCV
 
 * #### calcSquare
   计算平方数
+
   ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/calcSquare.png)
 
 * #### cameraTest
   摄像头测试
+
   ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/cameraTest.jpg)
+
   现存一个问题：界面第一次打开无法加载相机封面图片
 
 * #### findContours
   查找图片轮廓
+
   ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/findContours.jpg)
 
 * #### openPic
   打开图片测试
+
   ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/openPic.jpg)
 
 ### 本代码的参考例程和图片来源
