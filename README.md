@@ -40,4 +40,4 @@ wxWidgets+wxFormBuilder+OpenCV
 ### 本代码的参考例程和图片来源
 * wxImage与Mat格式转换参考自：[*这里的代码*](https://github.com/yan9a/wxwidgets/blob/master/minimalcv/util.h)
 
-* 用到的测试图片来自：[*这里的代码*](https://github.com/yan9a/wxwidgets/blob/master/minimalcv/util.h)
+* 用到的测试图片来自：[*这里的图片*](https://github.com/SSARCandy/Coherent-Line-Drawing/tree/master/data)
