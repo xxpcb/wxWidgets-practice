@@ -2,6 +2,7 @@
 * Name: cameraApp.cpp
 * Function: USB摄像头测试
 * Created: 2019-01-19
+*          2019-01-20 添加OnPaint(),解决初始界面封面图像加载问题
 * Author: xxpcb(https://github.com/xxpcb)
 ==========================================================*/
 
@@ -10,7 +11,7 @@
 #ifndef WX_PRECOMP  
 #include <wx/wx.h>  
 #endif  
-#include "camera1.h"//选用demo2.fbp
+#include "camera1.h"
 //#include <wx/wfstream.h>
 
 #include "../common/util.h"
@@ -31,9 +32,10 @@ public:
 class camFrame : public MyFrame1
 {
 public:
-	camFrame();
+	camFrame() : MyFrame1(NULL, wxID_ANY) {};
 private:
 	void OnToggle(wxCommandEvent& event);
+	void OnPaint(wxPaintEvent& event);
 	void OnTimer(wxTimerEvent& event);
 	wxDECLARE_EVENT_TABLE();
 };
@@ -53,10 +55,10 @@ bool camApp::OnInit()
 	return true;
 }
 
-camFrame::camFrame(): MyFrame1(NULL, wxID_ANY)
+void camFrame::OnPaint(wxPaintEvent& event)
 {
 	wxClientDC dc(m_panel1);
-	dc.DrawBitmap(imwx, 0, 0);//此处无效？
+	dc.DrawBitmap(imwx, 0, 0);//显示封面图
 };
 
 void camFrame::OnToggle(wxCommandEvent& event)

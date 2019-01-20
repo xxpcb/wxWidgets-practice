@@ -41,12 +41,14 @@ MyFrame1::MyFrame1(wxWindow* parent, wxWindowID id, const wxString& title, const
 	this->Centre(wxBOTH);
 
 	// Connect Events
+	m_panel1->Connect(wxEVT_PAINT, wxPaintEventHandler(MyFrame1::OnPaint), NULL, this);
 	m_toggleBtn1->Connect(wxEVT_COMMAND_TOGGLEBUTTON_CLICKED, wxCommandEventHandler(MyFrame1::OnToggle), NULL, this);
 }
 
 MyFrame1::~MyFrame1()
 {
 	// Disconnect Events
+	m_panel1->Disconnect(wxEVT_PAINT, wxPaintEventHandler(MyFrame1::OnPaint), NULL, this);
 	m_toggleBtn1->Disconnect(wxEVT_COMMAND_TOGGLEBUTTON_CLICKED, wxCommandEventHandler(MyFrame1::OnToggle), NULL, this);
 
 }

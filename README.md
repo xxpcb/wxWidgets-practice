@@ -25,7 +25,6 @@ wxWidgets+wxFormBuilder+OpenCV
 
   ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/cameraTest.jpg)
 
-  现存一个问题：界面第一次打开无法加载相机封面图片
 
 * #### findContours
   查找图片轮廓

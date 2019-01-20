@@ -37,6 +37,7 @@ protected:
 	wxTimer m_timer1;
 
 	// Virtual event handlers, overide them in your derived class
+	virtual void OnPaint(wxPaintEvent& event) { event.Skip(); }
 	virtual void OnToggle(wxCommandEvent& event) { event.Skip(); }
 
 
