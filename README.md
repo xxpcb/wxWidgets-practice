@@ -36,12 +36,12 @@ wxWidgets+wxFormBuilder+OpenCV
 
   ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/openPic.jpg)
   
-  * #### openBigPic
+* #### openBigPic
   打开大尺寸图片测试（滚动窗口）
 
   ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/openBigPic.jpg)
   
-   * #### serialTest
+* #### serialTest
   串口测试
 
   ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/serialTest.png)
