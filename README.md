@@ -11,6 +11,7 @@ wxWidgets+wxFormBuilder+OpenCV
 * common 存放所有例程共用的函数文件
 * img 存放测试图片
 * result存放测试结果图片
+* ForTest存放尚未完善的测试代码
 * 其余的文件夹为单独的例程代码（包含代码与fpb文件）
 
 ## 例程目录
