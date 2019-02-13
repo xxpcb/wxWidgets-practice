@@ -42,6 +42,10 @@ wxWidgets+wxFormBuilder+OpenCV
 
   ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/openBigPic.jpg)
   
+* #### picAdaption
+  图像铺满窗口与自适应窗口
+  ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/picAdaption.png)
+  
 * #### serialTest
   串口测试
 
