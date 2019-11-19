@@ -56,6 +56,10 @@ wxWidgets+wxFormBuilder+OpenCV
   OpenCV多线程测试
 
   ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/cvThread.png)
+  
+* #### wxMathPlot
+  MathPlot二维图形显示测试
+  ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/mathplot.gif)
 
 ### 本代码的参考例程和图片来源
 * wxImage与Mat格式转换参考自：[*这里的代码*](https://github.com/yan9a/wxwidgets/blob/master/minimalcv/util.h)
