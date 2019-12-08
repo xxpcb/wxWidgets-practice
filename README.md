@@ -59,7 +59,13 @@ wxWidgets+wxFormBuilder+OpenCV
   
 * #### wxMathPlot
   MathPlot二维图形显示测试
-  <div align="center"> <img src = "https://github.com/xxpcb/wxWidgets-practice/blob/master/result/mathplot.gif" width = '500' /></div>
+  
+  <div align="left"> <img src = "https://github.com/xxpcb/wxWidgets-practice/blob/master/result/mathplot.gif" width = '500' /></div>
+  
+* #### socketTest
+  wxSocket的测试，基于wxWidgets官方sockets例程，重新使用wxFormBuilder设计GUI，并添加基于TCP协议的文件传输功能
+  
+  <div align="left"> <img src = "./result/socket.png" width = '500' /></div>
 
 ### 本代码的参考例程和图片来源
 * wxImage与Mat格式转换参考自：[*这里的代码*](https://github.com/yan9a/wxwidgets/blob/master/minimalcv/util.h)
