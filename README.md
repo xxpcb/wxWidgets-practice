@@ -19,53 +19,53 @@ wxWidgets+wxFormBuilder+OpenCV
 * #### calcSquare
   计算平方数
 
-  ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/calcSquare.png)
+  ![](./result/calcSquare.png)
 
 * #### cameraTest
   摄像头测试
 
-  ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/cameraTest.jpg)
+  ![](./result/cameraTest.jpg)
 
 
 * #### findContours
   查找图片轮廓
 
-  ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/findContours.jpg)
+  ![](./result/findContours.jpg)
 
 * #### openPic
   打开图片测试
 
-  ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/openPic.jpg)
+  ![](./result/openPic.jpg)
   
 * #### openBigPic
   打开大尺寸图片测试（滚动窗口）
 
-  ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/openBigPic.jpg)
+  ![](./result/openBigPic.jpg)
   
 * #### picAdaption
   图像铺满窗口与自适应窗口
 
-  ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/picAdaption.png)
+  ![](./result/picAdaption.png)
 
 * #### serialTest
   串口测试
 
-  ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/serialTest.png)
+  ![](./result/serialTest.png)
   
 * #### cvThread
   OpenCV多线程测试
 
-  ![](https://github.com/xxpcb/wxWidgets-practice/blob/master/result/cvThread.png)
+  ![](./result/cvThread.png)
   
 * #### wxMathPlot
   MathPlot二维图形显示测试
   
-  <div align="left"> <img src = "https://github.com/xxpcb/wxWidgets-practice/blob/master/result/mathplot.gif" width = '500' /></div>
+  <div align="left"> <img src = "./result/mathplot.gif" width = '500' /></div>
   
 * #### socketTest
   wxSocket的测试，基于wxWidgets官方sockets例程，重新使用wxFormBuilder设计GUI，并添加基于TCP协议的文件传输功能
   
-  <div align="left"> <img src = "./result/socket.png" width = '500' /></div>
+  <div align="left"> <img src = "./result/socket.png" width = '800' /></div>
 
 ### 本代码的参考例程和图片来源
 * wxImage与Mat格式转换参考自：[*这里的代码*](https://github.com/yan9a/wxwidgets/blob/master/minimalcv/util.h)
